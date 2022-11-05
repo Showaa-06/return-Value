@@ -1,11 +1,5 @@
 func secretword(word: String) -> Bool {
-    if word == "Open" || word == "Open the Door" {
-        return true
-} else {
-        return false
-    
-}
-
+    return word == "Open" || word == "Open the Door"
 }
 
 var DoOpen = secretword(word: "Open")
